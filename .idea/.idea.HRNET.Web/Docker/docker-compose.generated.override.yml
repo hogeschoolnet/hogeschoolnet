@@ -1,0 +1,25 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  hrnet.web:
+    build:
+      context: "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\\
+        website\\HRNET.Web"
+      dockerfile: "HRNET.Web/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/HRNET.Web.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net8.0/HRNET.Web.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "hrnet.web:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\rwfli\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\\
+      website\\HRNET.Web\\HRNET.Web:/app:rw"
+    - "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\\
+      website\\HRNET.Web:/src:rw"
+    working_dir: "/app"

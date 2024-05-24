@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\website\\HRNET.Web\\HRNET.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HRNET.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HRNET.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\website\\HRNET.Web\\HRNET.Web\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\website\\HRNET.Web\\HRNET.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\website\\HRNET.Web\\HRNET.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rwfli\\Documents\\2. Ruben Flinterman\\Projects\\hogeschoolrotterdam.net\\website\\HRNET.Web\\HRNET.Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HRNET.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HRNET.Web.props",
+      "PackagePath": "build\\HRNET.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HRNET.Web.props",
+      "PackagePath": "buildMultiTargeting\\HRNET.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HRNET.Web.props",
+      "PackagePath": "buildTransitive\\HRNET.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

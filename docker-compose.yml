@@ -1,0 +1,9 @@
+﻿services:
+  hrnet.web:
+    image: hrnet.web
+    build:
+      context: .
+      dockerfile: HRNET.Web/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
